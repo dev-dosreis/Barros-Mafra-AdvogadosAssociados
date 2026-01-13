@@ -153,18 +153,25 @@ export const siteContent = {
 
   partners: [
     {
-      name: 'Dr. Ricardo Barros',
+      name: 'Dr. Jorge Barros',
       role: 'Sócio Fundador',
       areas: ['Societário', 'M&A', 'Contratos'],
       bio: 'Mais de 20 anos de experiência em direito empresarial, com foco em operações societárias e transações complexas.',
-      image: '/team/ricardo-barros.jpg',
+      image: '/team/jorge-barros.jpg',
     },
     {
-      name: 'Dra. Carolina Mafra',
-      role: 'Sócia Fundadora',
-      areas: ['Contencioso', 'Trabalhista', 'Compliance'],
-      bio: 'Especialista em litígios estratégicos e gestão de riscos corporativos, com atuação em casos de alta complexidade.',
-      image: '/team/carolina-mafra.jpg',
+      name: 'Dr. Felipe Barros',
+      role: 'Sócio',
+      areas: ['Tributário', 'Compliance', 'Imobiliário'],
+      bio: 'Especialista em planejamento tributário e estruturação de operações, com atuação em compliance e direito imobiliário empresarial.',
+      image: '/team/felipe-barros.jpg',
+    },
+    {
+      name: 'Dr. João Mafra',
+      role: 'Sócio Fundador',
+      areas: ['Contencioso', 'Trabalhista', 'Patrimonial'],
+      bio: 'Especialista em litígios estratégicos e gestão de riscos corporativos, com atuação em casos de alta complexidade e planejamento sucessório.',
+      image: '/team/joao-mafra.jpg',
     },
   ],
 
