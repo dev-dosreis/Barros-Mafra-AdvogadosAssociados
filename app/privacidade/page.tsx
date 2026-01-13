@@ -25,7 +25,7 @@ export default function PrivacidadePage() {
               1. Introdução
             </h2>
             <p className="text-muted leading-relaxed">
-              O escritório {siteContent.firmFullName} ("nós", "nosso" ou "escritório") 
+              O escritório {siteContent.firmFullName} (&quot;nós&quot;, &quot;nosso&quot; ou &quot;escritório&quot;) 
               está comprometido com a proteção da privacidade e dos dados pessoais de 
               nossos clientes, parceiros e visitantes do nosso site.
             </p>
