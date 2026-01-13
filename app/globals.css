@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* 60% Base */
+    --bg: #F6F4F1;
+    --surface: #FFFFFF;
+    --text: #121417;
+    --muted: #5E6672;
+    
+    /* 30% Estrutura */
+    --ink: #0B0F14;
+    --ink-surface: rgba(11,15,20,0.92);
+    --border: rgba(18,20,23,0.10);
+    
+    /* 10% Acento */
+    --accent: #1E3A8A;
+    --accent-soft: rgba(30,58,138,0.12);
+    --accent-hover: #1e40af;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-text antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  ::selection {
+    @apply bg-accent/20 text-accent;
+  }
+
+  /* Focus visible para acessibilidade */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+@layer components {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
